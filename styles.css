@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Helmet;
+    src: url(fonts/Helmet-Regular.ttf); /* Source: DaFont (https://www.dafont.com/helmet-2.font) */
+}
+
+
+body {
+    margin: 0;
+    font-family: Helmet;
+    background-color: black;
+    /* font:normal 75% Arial, Helvetica, sans-serif; */
+}
+
+#particles-js {
+position: absolute;
+width: 100%;
+height: 100%;
+background-image: url("");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+#title {
+    color: white;
+    font-size: 10em;
+    z-index: 1000;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
