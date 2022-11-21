@@ -4,3 +4,12 @@
 particlesJS.load('particles-js', 'particles.json', function() {
     console.log('callback - particles.js config loaded');
 });
+
+
+// use the howler.js library
+var song = new Howl({
+    src: ['song.mp3'],
+    volume: 0.25
+});
+  
+song.play();
