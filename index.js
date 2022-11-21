@@ -6,10 +6,12 @@ particlesJS.load('particles-js', 'particles.json', function() {
 });
 
 
-// use the howler.js library
-var song = new Howl({
-    src: ['song.mp3'],
-    volume: 0.25
-});
-  
-song.play();
+function play() {
+    // use the howler.js library to play the mp3 file song.mp3
+    var song = new Howl({
+        src: ['song.mp3'],
+        volume: 0.25
+    });
+      
+    song.play();
+}
